@@ -1,0 +1,15 @@
+<div class="form-group">
+    <label>Server Name</label>
+    <input type="text" class="form-control" [(ngModel)]="ServerName">
+</div>
+
+<div class="formm-group">
+    <label>Server Status</label>
+    <select class="form-control" id="status" [(ngModel)] = "ServerStatus">
+        <option value="online">Online</option>
+        <option value="offline">Offline</option>
+    </select>
+</div>
+<button class="btn btn-primary" (click) = "onUpdateServer()">
+    Update Server
+</button>
