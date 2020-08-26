@@ -12,9 +12,9 @@ export class UsersComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  fruits = [{name : 'apple', color : 'red'},
-            {name : 'banana' , color : 'yellow'},
-            {name : 'orange' , color : 'orange'}
+  userList = [{name : 'John', color : 'red'},
+            {name : 'Ria' , color : 'yellow'},
+            {name : 'Miya' , color : 'orange'}
           ]
 
 }
